@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petals</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1><B>The Petals</B></h1>
+            <nav>
+                <ul>
+                    <li><a href="#" id="cart-link">Cart (<span id="cart-count">0</span>)</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <section class="product-list">
+            <h2>Our Flower Collection</h2>
+            <div class="product-container">
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/200" alt="Rose Bouquet">
+                    <h3>Rose Bouquet</h3>
+                    <p>70.00</p>
+                    <button class="add-to-cart" data-product="Rose Bouquet" data-price="70.00">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/200" alt="Tulip Bouquet">
+                    <h3>Tulip Bouquet</h3>
+                    <p>45.00</p>
+                    <button class="add-to-cart" data-product="Tulip Bouquet" data-price="65.00">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/200" alt="Hydrangea Bouquet">
+                    <h3>Hydrangea Bouquet</h3>
+                    <p>100.00</p>
+                    <button class="add-to-cart" data-product="Hydrangea Bouquet" data-price="100.00">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/200" alt="Lily Bouquet">
+                    <h3>Lily Bouquet</h3>
+                    <p>60.00</p>
+                    <button class="add-to-cart" data-product="Lily Bouquet" data-price="60.00">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/200" alt="Daisy Bouquet">
+                    <h3>Daisy Bouquet</h3>
+                    <p>45.00</p>
+                    <button class="add-to-cart" data-product="Daisy Bouquet" data-price="45.00">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/200" alt="Sunflower Bouquet">
+                    <h3>Sunflower Bouquet</h3>
+                    <p>150.00</p>
+                    <button class="add-to-cart" data-product="Sunflower Bouquet" data-price="150.00">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/200" alt="Orchids Bouquet">
+                    <h3>Orchids Bouquet</h3>
+                    <p>210.00</p>
+                    <button class="add-to-cart" data-product="Orchids Bouquet" data-price="210.00">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cart Section (hidden by default) -->
+        <section class="cart" id="cart-section">
+            <h2>Your Cart</h2>
+            <ul id="cart-items">
+                <!-- Cart items will appear here -->
+            </ul>
+            <div class="cart-total">
+                <p>Total: $<span id="total-price">0.00</span></p>
+                <button id="checkout-button">Checkout</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; Petals by Gayatri Gogoi. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
